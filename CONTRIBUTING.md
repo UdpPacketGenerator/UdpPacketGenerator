@@ -77,7 +77,7 @@ gitGraph
 | Classes, structs, enums          | PascalCase        | `class UserAccount`, `struct Point3D`, `enum class ColorType` |
 | Functions (global and methods)   | camelCase         | `getUserBalance()`, `calculateTotal()`, `setName()`   |
 | Local variables and parameters   | camelCase         | `userName`, `totalCount`, `maxRetries`                |
-| Class members                    | `m_` + camelCase | `m_Name`, `m_Count`                                  |
+| Class members                    | `m_` + camelCase | `m_name`, `m_count`                                 |
 | Constants and `constexpr`        | `k` + PascalCase  | `kMaxSize`                                           |
 | Enum class values                | PascalCase        | `enum class Color { Red, Green, Blue };`          |
 | Macros                           | SNAKE_UPPER_CASE  | `TOTAL_COUNT`                                        |
